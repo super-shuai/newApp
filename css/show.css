@@ -1,0 +1,41 @@
+body{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	font-size:0.34rem;
+	font-family: "微软雅黑";
+}
+.show-top{
+	position:fixed;
+	top:0;
+	left:0;
+	background: #fff;
+	padding: 0 0.25rem;
+	height:0.75rem;
+	width:100%;
+	box-sizing:border-box;
+	line-height: 0.75rem;
+}
+.content{
+	width:7rem;
+	margin: 0 auto;
+	margin-top: 0.75rem;
+}
+.show-bottom{
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	border: 0.01rem solid #ccc;
+}
+.show-bottom input{
+	margin-left: 0.25rem;
+	margin-top: 0.25rem;
+	width:4rem;
+	height: 0.5rem;
+	border-radius:0.5rem;
+}
