@@ -7,6 +7,16 @@ a{
 	text-decoration:none;
 	color:#999;
 }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonticon/iconfont.eot');
+  src: url('../fonticon/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonticon/iconfont.woff') format('woff'),
+  url('../fonticon/iconfont.ttf') format('truetype'),
+  url('../fonticon/iconfont.svg#iconfont') format('svg');
+}
+
 body,html{
 	width: 100%;height: 100%;
 	font-size:0.34rem;
@@ -32,11 +42,13 @@ body,html{
 #swiper-container2{
  margin-top:0.75rem;
 }
-#swiper-container2 .swiper-slide:nth-child(1){
-}
+
 #swiper-container2 #swiper-slide1{
 	height:3.5rem;
-	background: red;
+}
+#swiper-container2 #swiper-slide1 img{
+	width: 100%;
+	height:3.5rem;
 }
 .newcon{
 	width: 7rem;
@@ -98,5 +110,10 @@ body,html{
 .bottom-nav{
 	display: flex;
 	justify-content:space-around;
-	align-item:center;
+	-webkit-align-items:center;
+}
+.bottom-nav a{
+	font-family: "iconfont";
+	font-size:0.40rem;
+	margin-bottom: 0.1rem;
 }
