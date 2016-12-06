@@ -117,3 +117,6 @@ body,html{
 	font-size:0.40rem;
 	margin-bottom: 0.1rem;
 }
+.bottom-nav a span{
+	font-size:0.32rem;
+}
